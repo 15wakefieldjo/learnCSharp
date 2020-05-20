@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,7 +8,7 @@ namespace learnCSharp
     {
         public enum type
         {
-            TEACHER, PUPIL
+            TEACHER, PUPIL, CLEANER
         };
         protected type pType;
 
