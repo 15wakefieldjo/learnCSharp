@@ -15,11 +15,11 @@ namespace learnCSharp
         }
     class Person
     {
-        public enum type
+        public enum role
         {
             HEADTEACHER
         };
-        protected type pType;
+       public role teacherjob { get; set; }
 
     }
         
