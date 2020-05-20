@@ -23,7 +23,7 @@ namespace learnCSharp
             teacher = new Teacher("John Smith", "L5");
 
             teacher.eyeColour = Teacher.colour.BLUE;
-
+            teacher.teacherjob = Teacher.role.HEADTEACHER;
             Console.Out.WriteLine("Teacher's name is " + teacher.name);
 
             pupil[0] = new Pupil("James Earl Jones");
