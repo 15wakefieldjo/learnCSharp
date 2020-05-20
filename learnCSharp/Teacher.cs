@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Transactions;
@@ -13,5 +13,15 @@ namespace learnCSharp
             this.location = location;
             
         }
+    class Person
+    {
+        public enum type
+        {
+            HEADTEACHER
+        };
+        protected type pType;
+
     }
+        
 }
+    }
